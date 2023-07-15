@@ -11,6 +11,7 @@ import {
   ListItemText,
   Typography,
 } from "@mui/material";
+import Image from "next/image";
 import React from "react";
 
 function Rightbar() {
@@ -58,38 +59,50 @@ function Rightbar() {
         </Typography>
         <ImageList cols={3} rowHeight={100}>
           <ImageListItem>
-            <img
+            <Image
               src="https://images.pexels.com/photos/2402503/pexels-photo-2402503.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              width={500}
+              height={500}
               alt=""
             />
           </ImageListItem>
           <ImageListItem>
-            <img
+            <Image
               src="https://images.pexels.com/photos/1752757/pexels-photo-1752757.jpeg?auto=compress&cs=tinysrgb&w=1600"
+              width={500}
+              height={500}
               alt=""
             />
           </ImageListItem>
           <ImageListItem>
-            <img
+            <Image
               src="https://images.pexels.com/photos/302871/pexels-photo-302871.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              width={500}
+              height={500}
               alt=""
             />
           </ImageListItem>
           <ImageListItem>
-            <img
+            <Image
               src="https://images.pexels.com/photos/8676395/pexels-photo-8676395.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              width={500}
+              height={500}
               alt=""
             />
           </ImageListItem>
           <ImageListItem>
-            <img
+            <Image
               src="https://images.pexels.com/photos/1624076/pexels-photo-1624076.jpeg?auto=compress&cs=tinysrgb&w=1600"
+              width={500}
+              height={500}
               alt=""
             />
           </ImageListItem>
           <ImageListItem>
-            <img
+            <Image
               src="https://images.pexels.com/photos/56905/pexels-photo-56905.jpeg?auto=compress&cs=tinysrgb&w=1600"
+              width={500}
+              height={500}
               alt=""
             />
           </ImageListItem>

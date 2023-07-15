@@ -71,6 +71,7 @@ function Add() {
           <UserBox>
             <Avatar
               src="https://images.pexels.com/photos/3586798/pexels-photo-3586798.jpeg?auto=compress&cs=tinysrgb&w=1600"
+              alt=""
               sx={{ width: 30, height: 30 }}
             >
               <Typography fontWeight={500} variant="span">

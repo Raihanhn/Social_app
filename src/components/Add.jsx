@@ -89,7 +89,7 @@ function Add() {
           />
           <Stack direction="row" gap={1} mt={2} mb={3}>
             <EmojiEmotions color="primary" />
-            <Image color="secondary" />
+            <Image alt="" color="secondary" />
             <VideoCameraBack color="success" />
             <PersonAdd color="error" />
           </Stack>
